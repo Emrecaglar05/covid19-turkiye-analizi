@@ -1,32 +1,67 @@
-# Türkiye COVID-19 Veri Analizi
+# 📊 Türkiye COVID-19 Veri Analizi Projesi
 
-Bu proje, [buradan indirilmiş olan COVID-19 Türkiye veri setini](https://www.kaggle.com) kullanarak temel veri analizi ve görselleştirmeler yapmaktadır.
+Bu proje, Türkiye’de COVID-19 pandemisi süresince açıklanan resmi verileri analiz ederek; vaka, ölüm, yoğun bakım, test sayıları gibi temel göstergelerin görselleştirilmesini ve yorumlanmasını amaçlamaktadır. Python programlama dili ve popüler veri bilimi kütüphaneleri kullanılarak yapılmıştır.
 
-## Kullanılan Kütüphaneler
+---
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+## 👤 HAZIRLAYAN
 
-## Görselleştirmeler
+**Ad Soyad:** Emre Çağlar
+**Bölüm:** Yönetim Bilişim Sistemleri - 2. Sınıf  
+**İlgili Alanlar:** Veri Bilimi, Makine Öğrenimi, Python Programlama  
+**Topluluk:** Güney Marmara Teknoloji ve İnovasyon Derneği  
+**İletişim:** [LinkedIn](https://linkedin.com/in/emre-%C3%A7a%C4%9Flar-9bb493294) | [E-posta](emrecaglar0505@gmail.com)
 
-Projede aşağıdaki temel görselleştirmeler oluşturulmuştur:
+---
 
-* **Günlük Vaka Sayısı:** Zaman içindeki günlük yeni vaka sayılarını gösteren çizgi grafik.
-* **Toplam Vaka ve Ölüm Sayıları:** Zaman içindeki toplam vaka ve ölüm sayılarını karşılaştıran çizgi grafik.
-* **Yoğun Bakım ve Entübe Hasta Sayıları:** Yoğun bakım ve entübe hasta sayılarının zaman içindeki değişimini gösteren çizgi grafik.
-* **Pozitiflik Oranı:** Günlük test sayısına göre hesaplanan pozitiflik oranının zaman içindeki değişimi.
-* **Korelasyon Matrisi:** Değişkenler arasındaki doğrusal ilişkileri gösteren ısı haritası.
-* **Hareketli Ortalama:** Günlük vaka sayısının 7 günlük hareketli ortalaması.
-* **Vaka/Test Oranı:** Günlük vaka sayısının günlük test sayısına oranının zaman içindeki değişimi.
+## 🛠 Kullanılan Kütüphaneler
 
-## Nasıl Çalıştırılır
+- `Pandas`: Veri işleme ve analiz  
+- `NumPy`: Sayısal işlemler  
+- `Matplotlib`: Grafik çizimi  
+- `Seaborn`: Veri görselleştirme  
 
-Bu proje için Python 3 ve yukarıda listelenen kütüphanelerin kurulu olması gerekmektedir. Kodu çalıştırmak için `python <COVİD19 PROJESİ>.py` komutunu kullanabilirsiniz. Veri dosyası (`Covid19-Turkey-Turkce.csv`) aynı dizinde olmalıdır.
+---
 
-## Gelecek Çalışmalar
+## 📈 Uygulanan Analizler ve Görselleştirmeler
 
-* Daha fazla veri kaynağı entegrasyonu (örneğin, aşılama verileri).
-* Zaman serisi tahmin modelleri uygulama.
-* Etkileşimli görselleştirmeler oluşturma.
+### 🦠 Günlük Vaka Sayısı
+![Günlük Vaka Sayısı](GunlukVakaSayısı.png)
+
+### ⚰️ Toplam Vaka ve Ölüm Sayısı
+![Toplam Vaka ve Ölüm Sayısı](ToplamVakaVeOlumSayısı.png)
+
+### 🏥 Yoğun Bakım ve Entübe Hasta Sayıları
+![Yoğun Bakım ve Entübe Hasta Sayıları](YogunBakımVeEntubeSayısı.png)
+
+### 🔬 Test Pozitiflik Oranı (%)
+![Pozitiflik Oranı](TestPozitiflikOranı.png)
+
+### 📈 Günlük Vaka ve 7 Günlük Hareketli Ortalama
+![Hareketli Ortalama](GunlukVakalarVeHareketliOrtalama.png)
+
+### 📉 Günlük Vaka/Test Oranı
+![Vaka/Test Oranı](GunlukVakaTestOranı.png)
+
+### 🔍 Değişkenler Arası Korelasyon Matrisi
+![Korelasyon Matrisi](DegiskenlerArasıKorelasyonMatrisi.png)
+
+---
+
+## 📂 Nasıl Kullanılır?
+
+1. Python 3 kurulu olmalıdır.
+2. Yandaki komutla gerekli kütüphaneleri yükleyin :  pip install pandas numpy matplotlib seaborn
+3- Covid19-Turkey-Turkce.csv dosyasını proje dizinine ekleyin.
+4-Python dosyasını çalıştırın:  
+python covid19_analiz.py
+
+🚀 Gelecek Geliştirmeler
+Aşı ve varyant verileri gibi yeni veri kaynaklarının entegrasyonu
+Makine öğrenimi modelleri ile tahminleme çalışmaları
+Web arayüzüyle etkileşimli raporlama (Streamlit, Dash gibi)
+Bölgesel karşılaştırmalı analizler
+
+💬 Geri Bildirim & Katkı
+Projeye dair görüşlerinizi, önerilerinizi veya katkılarınızı benimle paylaşabilirsiniz.
+Pull request ve issue açarak katkı sağlamaktan çekinmeyin.
